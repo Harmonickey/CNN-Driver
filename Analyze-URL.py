@@ -1,6 +1,6 @@
 import string
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
+BASE_PATH = os.path.dirname(os.path.realpath('__file__'))
 
 class UrlRef(object):
 	def __init__(self,url):

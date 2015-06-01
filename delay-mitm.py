@@ -1,7 +1,7 @@
 from libmproxy.script import concurrent
 import time,thread,os
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
+BASE_PATH = os.path.dirname(os.path.realpath('__file__'))
 
 def start(context,argv):
 	context.f = open(BASE_PATH + '/delay','a+')

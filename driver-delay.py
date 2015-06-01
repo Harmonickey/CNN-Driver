@@ -9,7 +9,7 @@ import psutil
 from appium.webdriver.common.touch_action import TouchAction
 from appium.webdriver.common.multi_action import MultiAction
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
+BASE_PATH = os.path.dirname(os.path.realpath('__file__'))
 
 class MitmProxyDriver(object):
 

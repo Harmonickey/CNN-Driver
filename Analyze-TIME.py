@@ -1,6 +1,6 @@
 import string
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
+BASE_PATH = os.path.dirname(os.path.realpath('__file__'))
 
 def parse_file(file_path,time_list):
 	f = open(file_path,'r')

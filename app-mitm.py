@@ -3,7 +3,7 @@ import time,thread,os
 import Image
 import psutil
 
-BASE_PATH = os.path.dirname(os.path.realpath(__file__))
+BASE_PATH = os.path.dirname(os.path.realpath('__file__'))
 
 def make_regalur_image(region):
     return region.resize((256,256)).convert('RGB')
